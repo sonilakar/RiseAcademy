@@ -16,11 +16,12 @@ nameVector
 #   Defining a Matrix
 
 testMatrix <- matrix(1:12, nrow = 3, ncol =4)
+testMatrix
 
 #   Defining a Array
 
 testVector <- c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
-testArray <- array(testVector, dim = c(3,4))
+testArray <- array(testVector, dim = c(2, 2, 3))
 testArray
 
 #Attributes
